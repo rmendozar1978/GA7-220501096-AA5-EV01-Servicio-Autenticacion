@@ -1,0 +1,37 @@
+PARA JUAN SEBASTIÁN ÁVILA PATIÑO — Evidencias AA5-EV03 y AA5-EV04 (Librería Luz)
+==================================================================================
+
+QUÉ HAY EN ESTA CARPETA
+- JUAN_AVILA_AA5_EV03.zip  -> Evidencia EV03 "Diseño y desarrollo de servicios web - proyecto".
+                              Lista para subir: proyecto completo (con historial Git) + Repositorio_GitHub.txt.
+- JUAN_AVILA_AA5_EV04.zip  -> Evidencia EV04 "API del proyecto". Contiene el proyecto, el documento
+                              de pruebas (Word), ENDPOINTS.txt, Repositorio_GitHub.txt, las capturas
+                              y la carpeta Video con el guion. FALTA AGREGAR EL VIDEO (ver abajo).
+- Capturas/                -> Las 34 imágenes de las pruebas (Swagger, resumen y una por cada petición).
+
+LO QUE TE FALTA HACER
+1. Subir el proyecto a GitHub
+   - Crea en GitHub un repositorio vacío llamado LibreriaLuz-API (sin README).
+   - Descomprime JUAN_AVILA_AA5_EV03.zip, abre una terminal dentro de la carpeta LibreriaLuz-API y ejecuta:
+       git remote add origin https://github.com/juanavip/LibreriaLuz-API.git
+       git push -u origin main
+   - Si usas otro nombre de repositorio, corrige el enlace en los dos Repositorio_GitHub.txt.
+
+2. Grabar el video de las pruebas con Postman (EV04)
+   - Sigue el guion: JUAN_AVILA_AA5_EV04/Video/Guion_Video_Pruebas_Postman.txt
+   - Guarda el video en esa carpeta Video/ y vuelve a comprimir la carpeta como JUAN_AVILA_AA5_EV04.zip.
+   - Recomendado: toma también 2 o 3 pantallazos de la ventana de Postman mientras grabas y agrégalos
+     a la carpeta Capturas (las capturas incluidas se generaron con Newman, el ejecutor de Postman).
+
+CÓMO EJECUTAR LA API
+- Requiere Java 11 o superior y Maven (o usar mvnw).
+- En la carpeta LibreriaLuz-API:  mvn spring-boot:run
+- Queda en http://localhost:9090  (documentación: http://localhost:9090/swagger-ui.html)
+- Se usa el puerto 9090 porque en Windows el 8080 suele estar reservado por Hyper-V/Docker.
+- En Postman: Import -> carpeta postman/ (colección y entorno), elegir el entorno "Librería Luz - Local"
+  y pulsar Run collection: 32 peticiones, todas deben salir en verde.
+
+NOTA SOBRE LOS NOMBRES DE LOS ZIP
+La guía del SENA muestra "NOMBRE_APELLIDO_AA5_EV01/EV02", pero las evidencias son EV03 y EV04;
+por eso los archivos se llaman JUAN_AVILA_AA5_EV03 y JUAN_AVILA_AA5_EV04. Si el instructor pide
+otro nombre, solo hay que renombrarlos.

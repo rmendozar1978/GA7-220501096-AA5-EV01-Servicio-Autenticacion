@@ -1,0 +1,27 @@
+# Archivos compilados y generados
+target/
+build/
+dist/
+*.class
+
+# Archivos locales y de IDE
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+
+# Base de datos local H2
+data/
+*.mv.db
+*.trace.db
+*.lock.db
+
+# No almacenar secretos ni archivos locales de configuración
+.env
+application-local.properties
+
+# Archivos temporales de Windows
+Thumbs.db
+desktop.ini
