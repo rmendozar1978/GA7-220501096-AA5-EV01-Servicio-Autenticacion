@@ -6,6 +6,6 @@ Ficha: ADSO 3235898
 
 Programa: Tecnólogo en Análisis y Desarrollo de Software
 
-Repositorio GitHub: GA7-220501096-AA5-EV01-Servicio-Autenticacion
+Repositorio GitHub: GA7-220501096-AA5-EV01-Servicio-Autenticación
 
 URL del repositorio: https://github.com/rmendozar1978/GA7-220501096-AA5-EV01-Servicio-Autenticacion
